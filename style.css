@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fff200, #ffc800); /* Background dengan warna kuning gradien */
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2E3691, #3B4CCA); /* Background header dengan warna biru gradien */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 60px; /* Mengatur ukuran logo menjadi lebih kecil */
+    height: auto;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation */
+nav {
+    background: linear-gradient(135deg, #FA6A22, #FB8B24); /* Background navbar dengan warna oranye gradien */
+    padding: 15px;
+    text-align: center;
+    position: sticky; /* Membuat navbar tetap diam saat scroll */
+    top: 0; /* Posisi atas saat scroll */
+    width: 100%; /* Lebar penuh */
+    z-index: 1000; /* Untuk memastikan navbar tetap di atas elemen lainnya */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333; /* Warna teks utama */
+}
+
+section h2 {
+    font-size: 2em;
+    margin-top: 0;
+    color: #2E3691; /* Warna judul section dengan warna biru */
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.content img {
+    width: 50%; /* Mengatur lebar gambar agar lebih proporsional */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content p {
+    flex: 1; /* Agar teks menyesuaikan dengan sisa ruang */
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #2E3691, #3B4CCA); /* Background footer dengan warna biru gradien */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
